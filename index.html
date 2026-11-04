@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0B1B3A">
+<title>Privacy policy · Transport Manager</title>
+<style>
+  :root { --bg:#F4F6FB; --card:#FFFFFF; --line:#E3E8F2; --text:#0F1B33; --muted:#5B6782; --brand:#0B5FFF; --navy:#0B1B3A; --teal:#14B8A6; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0A1222; --card:#111C33; --line:#22304D; --text:#E8EDF7; --muted:#93A0BC; --brand:#4C8DFF; } }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; color:var(--text); background:var(--bg); }
+  header { background:linear-gradient(120deg,var(--navy),#0E3A7A 60%,#0B5FFF); color:#fff; padding:calc(14px + env(safe-area-inset-top)) 20px 14px; }
+  header div { max-width:820px; margin:0 auto; font-weight:700; font-size:17px; display:flex; gap:10px; align-items:center; }
+  header i { font-style:normal; font-size:12px; width:30px; height:30px; border-radius:9px; background:linear-gradient(135deg,var(--teal),#0B5FFF); display:grid; place-items:center; }
+  main { max-width:820px; margin:20px auto; padding:0 16px calc(32px + env(safe-area-inset-bottom)); }
+  article { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:22px 24px; }
+  h1 { font-size:24px; margin:0 0 4px; letter-spacing:-.01em; } h2 { font-size:16px; margin:24px 0 6px; }
+  .muted { color:var(--muted); font-size:13px; } a { color:var(--brand); } ul { padding-left:20px; } li { margin:4px 0; }
+</style>
+</head>
+<body>
+<header><div><i>TM</i>Transport Manager</div></header>
+<main><article>
+<h1>Privacy policy</h1>
+<p class="muted">Last updated: 4 November 2026</p>
+
+<p>Transport Manager is an app for running a vehicle fleet: owners, admins, supervisors and drivers of one business record vehicles, trips, fuel, service, inspections, expenses and reminders together. This policy explains what we collect, why, and how to delete it.</p>
+
+<h2>Using the app without an account</h2>
+<p>You can use Transport Manager without signing in. Then your vehicles, entries, photos and reminders are stored only on your phone and are not sent to us; only the advertising data described below is processed (by Google AdMob). If you later sign in, what you added on the phone is uploaded to your business so it is backed up and shared with your team. Uninstalling the app or choosing <b>Profile › Erase all data on this phone</b> deletes data you kept without an account.</p>
+
+<h2>What we collect when you sign in</h2>
+<ul>
+  <li><b>Phone number</b>: your sign-in identity. A one-time code is sent to it by SMS through Google Firebase Authentication, which verifies the number for us. We do not use passwords.</li>
+  <li><b>Name</b>: shown to the other members of the businesses you belong to. If you are made the driver of a vehicle, your name and number are shown on that vehicle.</li>
+  <li><b>Business records and photos</b> that you or your team enter: vehicles, registration and renewal dates, trips, odometer readings, fuel, service, inspections, expenses, amounts, reminders, and photos such as invoices or inspection pictures.</li>
+  <li><b>Location, only while a trip is active.</b> When you start a trip (as a driver, or as an owner driving your own vehicle), the app records the vehicle's location so your business can follow the trip. An ongoing notification is shown the whole time, and recording stops when the trip ends. Location is never collected in the background at other times, and the app works without it if you decline.</li>
+  <li><b>Push notification token</b> from Firebase Cloud Messaging, so we can tell you about approvals, trips, team changes and reminders.</li>
+  <li><b>Advertising ID and ad interaction data</b>: the app shows ads (banners, occasional full-screen ads) through Google AdMob, which uses your device's advertising ID and basic device information to serve and measure ads. Where the law requires it (for example in the EEA and UK), we ask for your consent first through Google's User Messaging Platform, and you can change your choice in the app.</li>
+</ul>
+
+<h2>Why we use it</h2>
+<p>To sign you in, run your business's shared fleet records, show each member what their role allows, send the notifications you expect, and keep the service secure (for example, rate-limiting sign-in codes). Ads pay for the free app. We do not sell your personal data and we do not use your business records for advertising.</p>
+
+<h2>Where it is stored</h2>
+<p>All app data and photos are stored on Amazon Web Services in the Asia Pacific (Mumbai, ap-south-1) region and are encrypted at rest and in transit. Photos are private and can only be opened through short-lived links by members of the same business.</p>
+
+<h2>Who can see it</h2>
+<ul>
+  <li><b>Members of your business</b>, according to their role (for example, a driver sees only their own vehicle's entries).</li>
+  <li><b>Service providers acting on our behalf</b>: Amazon Web Services (hosting and storage), and Google (Firebase Authentication for sign-in codes, Firebase Cloud Messaging for notifications, AdMob for ads). Google's own use of this data is described at <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>. They process data only to provide those services.</li>
+  <li>Authorities, only where the law requires us to share it.</li>
+</ul>
+
+<h2>How long we keep it</h2>
+<p>Business records are kept for as long as the business uses the app. Sign-in codes expire after 5 minutes and rate-limit counters after an hour. Notification tokens are dropped after 60 days without use. Encrypted backups roll off within 35 days.</p>
+
+<h2>Security</h2>
+<p>All traffic uses HTTPS. Data is encrypted at rest. Each business is isolated: members only see what their role allows, and photos are private.</p>
+
+<h2>Deleting your account</h2>
+<p>You can delete your account at any time, in the app under <b>Profile › Delete my account</b>, or on the web at <a href="https://5jnasmp2emnkmicbj5j4y4t3xi0wirsd.lambda-url.ap-south-1.on.aws/delete">https://5jnasmp2emnkmicbj5j4y4t3xi0wirsd.lambda-url.ap-south-1.on.aws/delete</a> (sign in with your phone number). If you can no longer open the app, email us from the contact below with your phone number and we will delete your data within 24 hours; this cannot be undone. This removes your name and phone number from every business, and your sign-in and notification data. A business where you are the only owner is deleted completely, including all its records and photos. In a business that has another owner, the entries you added stay with that business, as they are its records.</p>
+
+<h2>Children</h2>
+<p>The app is meant for businesses and is not directed at children under 18. We do not knowingly collect data from children.</p>
+
+<h2>Changes</h2>
+<p>If we change this policy, we will update the date above and, for significant changes, tell you in the app.</p>
+
+<h2>Contact</h2>
+<p>For any privacy question or request, please email <a href="mailto:imChristy444@gmail.com">imChristy444@gmail.com</a>.</p>
+</article></main>
+</body>
+</html>
